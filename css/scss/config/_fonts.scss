@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+  font-family: 'realgrandeza';
+  src:  url('../../../fonts/realgrandeza.eot?fbj3cq');
+  src:  url('../../../fonts/realgrandeza.eot?fbj3cq#iefix') format('embedded-opentype'),
+    url('../../../fonts/realgrandeza.ttf?fbj3cq') format('truetype'),
+    url('../../../fonts/realgrandeza.woff?fbj3cq') format('woff'),
+    url('../../../fonts/realgrandeza.svg?fbj3cq#realgrandeza') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'realgrandeza' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-servicos:before {
+  content: "\e900";
+  color: #4f4f4f;
+}
+.ico-facebook:before {
+  content: "\e901";
+  color: #4f4f4f;
+}
+.ico-arrow:before {
+  content: "\e902";
+  color: #4f4f4f;
+}
+.ico-twitter:before {
+  content: "\e903";
+  color: #4f4f4f;
+}
+.ico-configuracoes:before {
+  content: "\e904";
+  color: #4f4f4f;
+}
+.ico-notificacoes:before {
+  content: "\e905";
+  color: #4f4f4f;
+}
+.ico-chat:before {
+  content: "\e906";
+  color: #4f4f4f;
+}
+.ico-encontre-medicos:before {
+  content: "\e907";
+  color: #4f4f4f;
+}
+.ico-contatos:before {
+  content: "\e908";
+  color: #4f4f4f;
+}
+.ico-documentos:before {
+  content: "\e909";
+  color: #4f4f4f;
+}
