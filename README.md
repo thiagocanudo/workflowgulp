@@ -1,29 +1,11 @@
-# README #
+# QUICK START #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+It's really simple to get started. Here's a quick run down.
 
-### What is this repository for? ###
+### Read [the documentation](https://bitbucket.org/tutorials/markdowndemo) if you need some help with the requirements ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Download or clone the package
+* Run npm install (use sudo if needed) to install the dependencies
+* Run gulp to start the server, live reload and watchers and start developing.
+* Open your web browser to http://localhost:8080 to use your local server and live reload
+* Run gulp deploy to build your project
