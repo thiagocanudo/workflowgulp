@@ -2,14 +2,7 @@
   "name": "GEBSAPrev",
   "version": "1.1.0",
   "description": "Portal GEBSAPrev",
-  "dependencies": {
-	"tar": ">=4.4.2",
-	"hoek": ">=4.2.1",
-	"minimatch": ">=3.0.2",
-	"lodash": ">=4.17.11",
-	"cryptiles": ">=4.1.2",
-	"extend": ">=3.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.18.7",
     "gulp": "^3.9.1",
