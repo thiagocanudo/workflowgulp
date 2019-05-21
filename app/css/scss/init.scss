@@ -2,12 +2,13 @@
 @import 'html/bootstrap.min';
 
 //misc settings
+@import 'config/_mediaqueries';
+@import 'config/_colors';
 @import 'config/_settings';
 @import 'config/_mixins';
 
 //fonts
 @import 'config/_fonts';
-
 
 //buttons
 @import 'config/_buttons';
@@ -20,5 +21,3 @@
 
 //global things
 @import 'layout/_main';
-
-//pages

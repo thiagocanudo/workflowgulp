@@ -7,5 +7,15 @@ body{
 	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 1.42857143;
-	background: #FFF;
+	background: darken($colorWhite, 5); 
+}
+
+header{
+	height: 50px;
+	background: lighten($colorBlack, 50);
+}
+
+footer{
+	height: 100px;
+	background: lighten($colorBlack, 50);
 }
