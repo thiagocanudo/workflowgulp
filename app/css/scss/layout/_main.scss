@@ -19,3 +19,15 @@ footer{
 	height: 100px;
 	background: lighten($colorBlack, 50);
 }
+
+.hero{
+	
+}
+
+a.link{
+	@extend .transition; 
+	&:hover{
+		text-decoration: none;
+		@extend .transition;
+	}
+}

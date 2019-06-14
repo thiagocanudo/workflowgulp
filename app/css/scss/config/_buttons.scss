@@ -1,0 +1,16 @@
+.btn-danger {
+    font-size: 1.8rem;
+    background-color: #8A003A;
+    border-color: #8A003A;
+    &:hover{
+	    background-color: darken(#8A003A, 5);
+    	border-color: darken(#8A003A, 5);
+    }
+    &:not(:disabled):not(.disabled):active{
+	    background-color: darken(#8A003A, 2);
+    	border-color: darken(#8A003A, 2);
+    }
+    &:focus{
+    	box-shadow: 0 0 0 0.2rem #8A003A80;
+    }
+}
