@@ -1,10 +1,7 @@
 {
-  "name": "WorkFlowGulp",
+  "name": "workflowgulp",
   "version": "1.1.0",
-  "description": "Portal WorkFlowGulp",
-  "dependencies": {
-    "sass-prefix-mixins": "^1.0.2"
-  },
+  "description": "WorkFlow Gulp",
   "devDependencies": {
     "browser-sync": "^2.18.7",
     "gulp": "^3.9.1",
