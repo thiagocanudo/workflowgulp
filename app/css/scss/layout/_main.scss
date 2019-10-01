@@ -3,11 +3,21 @@ html {
 } 
 
 body{
-	font-family: 'Roboto', serif;
-	font-weight: 400;
+	font-family: 'Lato', serif;
+	font-weight: 300;
 	font-size: 1.6rem;
 	line-height: 1.42857143;
 	background: darken($colorWhite, 5); 
+}
+
+.tapume{
+	height: 100vh;
+	background: linear-gradient(to top, #EBCFCE ,#F09695);
+	background: #002700;
+	p{
+    font-size: 2rem;
+    color: $colorPrimary;
+  }
 }
 
 header{
