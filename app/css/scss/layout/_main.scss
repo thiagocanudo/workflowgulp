@@ -11,13 +11,28 @@ body{
 }
 
 .tapume{
+	position: relative;
 	height: 100vh;
-	background: linear-gradient(to top, #EBCFCE ,#F09695);
-	background: #002700;
+	min-height: 260px;
+	background: linear-gradient(to top, #002700 ,#002200);
 	p{
     font-size: 2rem;
     color: $colorPrimary;
-  }
+	}
+	i{
+		font-size: 2rem;
+	}
+	a{
+		position: absolute;
+		bottom: 20px;
+		color: $colorPrimary;
+			@extend .transition;
+		&:hover{
+			color: darken($colorPrimary, 20);
+			text-decoration: none;
+			transform: scale(1.25);
+		}
+	}
 }
 
 header{
