@@ -115,6 +115,23 @@ gulp.task('styles', function () {
         .pipe(browserSync.reload({ stream: true }));
 });
 
+
+
+
+// Adicionando Plugins JS
+function pluginsjs() {
+    return gulp
+        .src(['node_modules/jquery/dist/jquery.min.js'])
+        .pipe(concat('plugins.js'))
+        .pipe(gulp.dest('app/js/src/_includes'))
+        .pipe(browserSync.reload({ stream: true }))
+}
+
+gulp.task('pluginsjs', pluginsjs);
+
+
+
+
 //compiling our SCSS files for deployment
 gulp.task('styles-deploy', function () {
     //the initializer / master SCSS file, which will just be a file that imports everything
@@ -207,4 +224,5 @@ gulp.task('default', ['browserSync', 'scripts', 'styles'], function () {
 });
 
 //this is our deployment task, it will set everything for deployment-ready files
-gulp.task('deploy', gulpSequence('clean', 'scaffold', ['scripts-deploy', 'styles-deploy', 'images-deploy'], 'html-deploy'));
+gulp.task('deploy', gulpSequence('clean', 'scaffold', ['scripts-deploy', 'styles-deploy', 'pluginsjs', 'images-deploy'], 'html-deploy'));
+
