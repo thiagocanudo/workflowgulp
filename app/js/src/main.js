@@ -1,5 +1,5 @@
-$(document).on('ready', function() {
-    console.log('jQuery load!!!');
+$(document).on('ready', function () {
+  console.log('jQuery load!!!');
   $(".regular").slick({
     dots: true,
     infinite: true,
@@ -7,4 +7,24 @@ $(document).on('ready', function() {
     slidesToScroll: 1,
     mobileFirst: true
   });
+
+
+  var $menu = $('.getway');
+  var $hamburguer = $('.getway-hamburguer');
+  $hamburguer.click(function (e) {
+    e.stopPropagation();
+    $(this).toggleClass('active');
+    $menu.toggleClass('active');
+    console.log('click');
+  });
+
+  $menu.find('ul').click(function (e) {
+    e.stopPropagation();
+  });
+
+  $('body').click(function () {
+    $hamburguer.removeClass('active')
+    $menu.removeClass('active');
+  });
+
 });
