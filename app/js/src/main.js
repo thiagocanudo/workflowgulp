@@ -1,4 +1,4 @@
-$(document).on('ready', function () {
+$(document).ready(function () {
   console.log('jQuery load!!!');
   $(".regular").slick({
     dots: true,

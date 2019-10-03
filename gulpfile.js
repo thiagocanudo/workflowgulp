@@ -123,7 +123,7 @@ function pluginsjs() {
     return gulp
         .src(['node_modules/jquery/dist/jquery.min.js'])
         .pipe(concat('plugins.js'))
-        .pipe(gulp.dest('app/js/src/_includes'))
+        .pipe(gulp.dest('app/js/'))
         .pipe(browserSync.reload({ stream: true }))
 }
 
@@ -215,7 +215,7 @@ gulp.task('scaffold', function () {
 //  startup the web server,
 //  start up browserSync
 //  compress all scripts and SCSS files
-gulp.task('default', ['browserSync', 'scripts', 'styles'], function () {
+gulp.task('default', ['browserSync', 'pluginsjs', 'scripts', 'styles'], function () {
     //a list of watchers, so it will watch all of the following files waiting for changes
     gulp.watch('app/js/src/**', ['scripts']);
     gulp.watch('app/css/scss/**', ['styles']);
