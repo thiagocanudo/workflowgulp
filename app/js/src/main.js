@@ -1,5 +1,5 @@
 $(document).on('ready', function () {
-  console.log('jQuery load!!!');
+  console.log('JQUERY LOAD');
   $(".regular").slick({
     dots: true,
     infinite: true,
@@ -7,7 +7,6 @@ $(document).on('ready', function () {
     slidesToScroll: 1,
     mobileFirst: true
   });
-
 
   var $menu = $('.getway');
   var $hamburguer = $('.getway-hamburguer');
